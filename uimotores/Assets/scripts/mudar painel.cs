@@ -1,11 +1,11 @@
 using UnityEngine;
-public class TrocaDePainel : MonoBehaviour
+
+public class FecharPainel : MonoBehaviour
 {
-public GameObject Panel1;
-public GameObject Panel2;
-public void MostrarPanel1()
-{
-Panel1.SetActive(true);
-Panel2.SetActive(false);
-}
+    public GameObject painelParaFechar;
+
+    public void Fechar()
+    {
+        painelParaFechar.SetActive(false);
+    }
 }
